@@ -7,8 +7,8 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $('#home1').tooltip('show')
-        $('#home1').tooltip('hide')
+        $('#about_us').tooltip('show')
+        $('#about_us').tooltip('hide')
     });
 </script>
 
@@ -28,8 +28,8 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $('#sort').tooltip('show')
-        $('#sort').tooltip('hide')
+        $('#photos').tooltip('show')
+        $('#photos').tooltip('hide')
     });
 </script>
 
