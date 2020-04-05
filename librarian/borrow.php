@@ -19,7 +19,8 @@
 								<?php
 									$link = mysqli_connect("127.0.0.1", "root","", "lib_management");
 									$result =  mysqli_query($link, "select * from member")or die(mysqli_error($link)); 
-									while ($row=mysqli_fetch_array($result)){ ?>
+									while ($row=mysqli_fetch_array($result)){
+								?>
 								<option value="<?php echo $row['member_id']; ?>">
 									<?php echo $row['firstname']." ".$row['lastname']; ?>
 								</option>
