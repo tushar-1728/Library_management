@@ -1,4 +1,3 @@
-
     <footer class="footer">
 				<div class="pull-center">
 				<img class="stilogo" src="../LMS/footer.png" class="img-rounded">
