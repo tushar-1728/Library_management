@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <?php include('session.php'); ?>
 <?php include('navbar_borrow.php'); ?>
-<?php include('tooltip.php'); ?>
+
 <div class="container">
     <div class="margin-top">
         <div class="row">
@@ -42,12 +42,16 @@
                             <td><?php echo $row['due_date']; ?> </td>
                             <td><?php echo $row['date_return']; ?> </td>
                             <td><?php echo $row['borrow_status'];?></td>
+                            <script type="text/javascript">
+                                $(document).ready(function () {
+                                    $('#<?php echo $borrow_details_id; ?>').tooltip('show')
+                                    $('#<?php echo $borrow_details_id; ?>').tooltip('hide')
+                                });
+                            </script>
                             <td>
                                 <a rel="tooltip" title="Return" id="<?php echo $borrow_details_id; ?>"
                                     href="#delete_book<?php echo $borrow_details_id; ?>" data-toggle="modal"
-                                    class="btn-default">
-                                    Return
-                                </a>
+                                    class="btn-default" data-original-title="Return">Return</a>
                                 <?php include('modal_return.php'); ?>
                             <td></td>
                         </tr>

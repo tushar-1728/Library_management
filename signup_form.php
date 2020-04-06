@@ -1,26 +1,26 @@
-	<?php
-		include('dbcon.php');
-		if (isset($_POST['submit'])){
+<?php
+	if (isset($_POST['submit'])){
 		$student_no=$_POST['student_no'];
 		$password=$_POST['password'];
 		$cpassword=$_POST['cpassword'];
-	
-			$query=mysql_query("select * from students where student_no='$student_no'")or die(mysql_error());
-$count=mysql_num_rows($query);
+		$link = mysqli_connect("127.0.0.1", "root","", "lib_management");
+		$query=mysqli_query($link, "select * from students where student_no='$student_no'")or die(mysqli_error($link));
+		$count=mysqli_num_rows($query);
 
-if ($count  > 0){
-$exist = "";
-}else{
-$exist ='ID Number not Found!';
-}
-								
-			if($cpassword!=$password){
-		$a="Password do not Match";
-		}else{
-		$a = "";
+		if ($count  > 0){
+			$exist = "";
+		}
+		else{
+			$exist ='ID Number not Found!';
+		}
+		if($cpassword!=$password){
+			$a="Password do not Match";
+		}
+		else{
+			$a = "";
 		}
 	}
-	?>
+?>
 <form method="post" enctype="multipart/form-data">	
 	<div class="span5">
 	<div class="form-horizontal">
@@ -117,7 +117,7 @@ if(isset($_POST['submit']))
 
 if($password == $cpassword && $count == 1){ ?>
 <?php  
-mysql_query("update students set password = '$password' , photo = '$location' , status = 'active' where student_no = '$student_no' ")or die(mysql_error());
+mysqli_query($link, "update students set password = '$password' , photo = '$location' , status = 'active' where student_no = '$student_no' ")or die(mysqli_error($link));
 ?>
 <script type="text/javascript">
  window.location='success.php'; 

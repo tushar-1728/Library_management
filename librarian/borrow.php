@@ -44,10 +44,10 @@
 					</div>
 					<div class="span8">
 						<div class="alert alert-success"><strong>Select Book</strong></div>
-						<table cellpadding="0" cellspacing="0" border="0" class="table" id="example">
+						<table cellpadding="5" cellspacing="5" border="0" class="table" id="example">
 							<thead>
 								<tr>
-									<th>Acc No.</th>
+									<th>Account no</th>
 									<th>Book title</th>
 									<th>Category</th>
 									<th>Author</th>

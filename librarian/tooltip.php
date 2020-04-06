@@ -49,3 +49,9 @@
         $('#return').tooltip('hide')
     });
 </script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#<?php echo $borrow_details_id; ?>').tooltip('show')
+        $('#<?php echo $borrow_details_id; ?>').tooltip('hide')
+    });
+</script>
