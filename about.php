@@ -33,7 +33,7 @@
 	<td colspan="3"></td>
 	</tr>
 	<tr>
-	<td>Mr. Tushar Raj<br />Librarian </td>
+	<td>Mr. Pankaj Tripathi<br />Librarian </td>
 	</tr>
 	
 	</tbody>
