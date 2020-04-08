@@ -1,6 +1,6 @@
 
 <?php include('header.php'); ?>
-<?php include('navbar_about.php'); ?>
+<?php include('navbar.php'); ?>
     <div class="container">
 		<div class="margin-top">
 			<div class="row">	
