@@ -29,7 +29,6 @@ Manual process of keeping student records, book records, account details, managi
 
 - **Searching** of books
 - **Issuing** and **returning** books
-- Check fines(if any)
 - Librarian can read information about any member
 - Librarian can track the books issued by a particular student
 - Librarian can **add/remove any member**(student).

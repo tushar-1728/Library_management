@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>
 <?php include('session.php'); ?>
 <?php include('navbar_dasboard.php'); ?>
+<?php include('dbcon.php'); ?>
     <div class="container">
 		<div class="margin-top">
 			<div class="row">	
@@ -26,8 +27,8 @@
                                 </thead>
                                 <tbody>
 								 
-                                  <?php  $user_query=mysql_query("select * from students where status = 'unactive' ")or die(mysql_error());
-									while($row=mysql_fetch_array($user_query)){
+                                  <?php  $user_query=mysqli_query($link, "select * from students where status = 'unactive' ")or die(mysqli_error($link));
+									while($row=mysqli_fetch_array($user_query)){
 									$id=$row['student_id'];  ?>
 									<tr class="del<?php echo $id ?>">
                                     <td><?php echo $row['student_no']; ?></td> 

@@ -1,14 +1,15 @@
 <?php include('header.php'); ?>
 <?php include('session.php'); ?>
 <?php include('navbar_dashboard.php'); ?>
+<?php include('dbcon.php'); ?>
 <?php $get_id = $_GET['id']; ?>
     <div class="container">
 		<div class="margin-top">
 			<div class="row">	
 			<div class="span12">	
 		<?php 
-		$query=mysql_query("select * from member where member_id='$get_id'")or die(mysql_error());
-		$row=mysql_fetch_array($query);
+		$query=mysqli_query($link, "select * from member where member_id='$get_id'")or die(mysqli_error($link));
+		$row=mysqli_fetch_array($query);
 		
 		?>
              <div class="alert alert-info"><i class="icon-pencil"></i>&nbsp;Edit Member</div>
@@ -55,8 +56,8 @@
 			
 			
 <?php 
-		$query=mysql_query("select * from member where member_id='$get_id'")or die(mysql_error());
-		$row1=mysql_fetch_array($query);
+		$query=mysqli_query($link, "select * from member where member_id='$get_id'")or die(mysqli_error($link));
+		$row1=mysqli_fetch_array($query);
 		
 		?>					
 									
@@ -74,8 +75,8 @@
 				<select name="year_level" required>
 					
 	<?php 
-		$query=mysql_query("select * from member where member_id='$get_id'")or die(mysql_error());
-		$row1=mysql_fetch_array($query);
+		$query=mysqli_query($link, "select * from member where member_id='$get_id'")or die(mysqli_error($lin));
+		$row1=mysqli_fetch_array($query);
 		
 		?>					
 								

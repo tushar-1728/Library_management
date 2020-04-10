@@ -6,10 +6,10 @@
 		<div class="margin-top">
 			<div class="row">	
 			<div class="span12">	
-		<?php 
-		$query=mysql_query("select * from member where member_id='$get_id'")or die(mysql_error());
-		$row=mysql_fetch_array($query);
-		
+		<?php
+			$link = mysqli_connect("127.0.0.1", "root","", "lib_management");
+			$query=mysqli_query($link, "select * from member where member_id='$get_id'")or die(mysqli_error($link));
+			$row=mysqli_fetch_array($query);
 		?>
              <div class="alert alert-danger"><i class="icon-pencil"></i>&nbsp;Edit Member</div>
 			<p><a class="btn-default" href="member.php"><i class="icon-arrow-left icon-large"></i>&nbsp;Back</a></p>

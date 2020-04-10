@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>
 <?php include('session.php'); ?>
 <?php include('navbar_borrow.php'); ?>
+<?php include('dbcon.php'); ?>
     <div class="container">
 		<div class="margin-top">
 			<div class="row">	
@@ -21,13 +22,13 @@
                                 </thead>
                                 <tbody>
 								 
-                                  <?php  $user_query=mysql_query("select * from borrow
+                                  <?php  $user_query=mysqli_query($link, "select * from borrow
 								LEFT JOIN member ON borrow.member_id = member.member_id
 								LEFT JOIN borrowdetails ON borrow.borrow_id = borrowdetails.borrow_id
 								LEFT JOIN book on borrowdetails.book_id =  book.book_id 
 								ORDER BY borrow.borrow_id DESC
-								  ")or die(mysql_error());
-									while($row=mysql_fetch_array($user_query)){
+								  ")or die(mysqli_error($link));
+									while($row=mysqli_fetch_array($user_query)){
 									$id=$row['borrow_id'];
 									$book_id=$row['book_id'];
 									$borrow_details_id=$row['borrow_details_id'];

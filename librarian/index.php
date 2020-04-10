@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="span12">
 				<div class="sti">
-					<img src="../LMS/vit.png" class="img-rounded">
+					<img src="../LMS/pes.png" class="img-rounded">
 				</div>
 				<div class="login">
 					<div class="log_txt">

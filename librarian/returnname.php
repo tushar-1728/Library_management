@@ -4,8 +4,10 @@
 				<div class="controls">
 				<select name="returnee_name">
 				<option></option>
-				<?php $result =  mysql_query("select * from member")or die(mysql_error()); 
-				while ($row=mysql_fetch_array($result)){ ?>
+				<?php
+				$link = mysqli_connect("127.0.0.1", "root","", "lib_management");
+				$result =  mysqli_query($link, "select * from member")or die(mysqli_error($link)); 
+				while ($row=mysqli_fetch_array($result)){ ?>
 				<option value="<?php echo $row['member_id']; ?>"><?php echo $row['firstname']." ".$row['lastname']; ?></option>
 				<?php } ?>
 				</select>

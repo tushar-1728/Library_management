@@ -4,7 +4,7 @@
 				</div>
       <div class="container">
 	  <div class="foot-margin">
-        <p><a></br>VIT University . All Rights Reserved. Developed by <a href="https://facebook.com/vinit.shahdeo" target="_blank">Vinit Shahdeo</a></p>
+        <p></br>PES University . All Rights Reserved.</p>
       </div>
       </div>
     </footer>
