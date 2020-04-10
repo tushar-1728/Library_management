@@ -1,19 +1,23 @@
-# Online Library Management System
-#### An interactive web portal for automating various manual processes done by librarian.
+# Knowledge Management - Library Management
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/tushar-1728/Library_management.svg?logo=github&style=social)](https://github.com/tushar-1728/Library_management/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tushar-1728/Library_management.svg?logo=git&style=social)](https://github.com/tushar-1728/Library_management/) [![GitHub license](https://img.shields.io/github/license/tushar-1728/Library_management.svg?style=social&logo=github)](https://github.com/tushar-1728/Library_management/blob/master/LICENSE)
 
-## Abstract
+### Knowlegde Management - UE17CS342
 
+**Project Team:**
+- Aditya S - PES1201700012
+- M Sudharshan - PES1201700356
+- Anirudh Vidyabhusan - PES1201700674
+- Tushar Raj - PES1201700221
+
+## Overview
 ![Library Management System](https://img.shields.io/badge/library--management-system-orange.svg?style=flat-square)
 
 Manual process of keeping student records, book records, account details, managing employee is very difficult. There are various problems also faced by the student in library such as finding any particular book, information whether book is available or not, for what time this book will be available, searching of books using ISBN number etc. To eliminate this manual system, **Library Management System** has been developed.
 
 [![PPT](https://img.shields.io/static/v1.svg?label=Project&message=PPT&logo=microsoft-powerpoint&style=social)](https://github.com/tushar-1728/Library_management/raw/master/PPTs/ONLINE%20LIBRARY%20MANAGEMENT%20SYSTEM.pptx) [![report](https://img.shields.io/static/v1.svg?label=Project&message=Report&logo=microsoft-word&style=social)](https://github.com/tushar-1728/Library_management/raw/master/PROJECT%20REPORT/LIBRARY%20Management%20System%20Report.pdf)
 
-> **You can download the report [here](https://github.com/tushar-1728/Library_management/raw/master/PROJECT%20REPORT/LIBRARY%20Management%20System%20Report.pdf). To download the presentation, [click here](https://github.com/tushar-1728/Library_management/raw/master/PPTs/ONLINE%20LIBRARY%20MANAGEMENT%20SYSTEM.pptx).**
-
-> **You can check the screenshots of User Interface [here](https://github.com/tushar-1728/Library_management/tree/master/screenshots).**
+## Screenshots
 
 ## Core Features
 
@@ -31,34 +35,6 @@ Manual process of keeping student records, book records, account details, managi
 - Librarian can **add/remove any member**(student).
 - Librarian can **add/delete books**
 - Librarian can update the availability status of the books
-
-## Additional Features
-
-**Admin Dashboard** deal with the following : 
-
-- Displaying all members records.
-
-- Displaying all books records.
-
-- Update Book Records.
-
-- Delete Book Records
-
-- Add Book Records
-
-- Add Member/Student Records
-
-- Delete Member/Student Records
-
-- Update Member/Student Records.
-
-## Modules
-
-- Admin login
-- Search Books
-- Add and Update Books
-- Add and Remove Members
-- Issue Books
 
 ## Technology Stack Used
 
@@ -93,37 +69,9 @@ The source code of this project is written in **PHP**. So, you'll require **WAMP
 3. Configure `dbcon.php` 
 4. Run **`localhost/{YOUR FOLDER NAME}`**
 
-## Need help?
-
-```javascript
-
-  if (needHelp === true) {
-     var emailId = "kmproject@gmail.com";
-     // email is the best way to reach out to me.
-     sendEmail(emailId);
-  }
-
-```
-
-Invite me to connect on [LinkedIn](https://www.linkedin.com/in/vinitshahdeo/).
-
-[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@vinitshahdeo&color=success&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/vinitshahdeo/)
-
-
-[![dbms report](https://img.shields.io/static/v1.svg?label=DBMS&message=Report&logo=microsoft-word&style=social)](https://github.com/vinitshahdeo/Library-Management-System/raw/master/PROJECT%20REPORT/LMS-DBMS%20Report-Vinit%20Shahdeo.pdf) [![PPT](https://img.shields.io/static/v1.svg?label=Project&message=PPT&logo=microsoft-powerpoint&style=social)](https://github.com/vinitshahdeo/Library-Management-System/raw/master/PPTs/ONLINE%20LIBRARY%20MANAGEMENT%20SYSTEM.pptx) [![OSP report](https://img.shields.io/static/v1.svg?label=OSP&message=Report&logo=microsoft-word&style=social)](https://github.com/vinitshahdeo/Library-Management-System/raw/master/PROJECT%20REPORT/LIBRARY%20Management%20System%20Report.pdf)
-
-- [Download](https://github.com/tushar-1728/Library_management/raw/master/PROJECT%20REPORT/LMS-DBMS%20Report-Vinit%20Shahdeo.pdf) KM report
-- [Download](https://github.com/tushar-1728/Library_management/raw/master/PPTs/ONLINE%20LIBRARY%20MANAGEMENT%20SYSTEM.pdf) presentation
-
-
 ## License
 
-[![GitHub license](https://img.shields.io/github/license/tushar-1728/Library_management.svg?style=social&logo=github)](https://github.com/tushar-1728/Library_management/blob/master/LICENSE) [![Author](https://img.shields.io/static/v1.svg?label=Author&message=@tushar-1728&logo=github&style=social)](https://github.com/tushar-1728)
-
-**MIT &copy; [Tushar Raj](https://github.com/tushar-1728/Library_management/blob/master/LICENSE)**
-
-[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Library-Management-System/links/7)
-
+[![GitHub license](https://img.shields.io/github/license/tushar-1728/Library_management.svg?style=social&logo=github)](https://github.com/tushar-1728/Library_management/blob/master/LICENSE)
 
 ## Oh, Thanks!
 
@@ -148,19 +96,3 @@ Thank you for being here!
 
 
 ```
-
-
-[![GitHub followers](https://img.shields.io/github/followers/tushar-1728.svg?label=Follow&style=social)](https://github.com/tushar-1728/)
-
-------
-
-```javascript
-
-  if (isAwesome) {
-    // thanks in advance :p
-    starThisRepository();
-  }
-  
-```
-
--------
